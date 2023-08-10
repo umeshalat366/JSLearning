@@ -1,26 +1,25 @@
-function primeNo(n){
-    var n,i,prime=true;
-    n=11;
-    n=parseInt(n)
-    for (i= 2; i <=n-1; i++) 
-    if (n%i==0) {
-        prime=false;
-        break;
-        
-    }
-    if (prime=true) 
-    alert(n+ "is prime");
-        
-     else 
-     alert(n+ "is not prime");
-        
-    };
-    const n=11;
-    if (primeNo(n)) {
-        console.log(`${n} is prime no`);
-    } else {
-        console.log(`${n}is not prime no`);
-    }
-
-        
-
+var isPrime=function(number){
+    var count=0;
+    for (var i = 1; i<= number; i++) {
+        if(number%i==0){
+            count=count+1;
+        }
+}
+if (count==2) {
+    return true;
+} else {
+    return false;
+}
+}
+//checking 11 & 21 are prime no
+if (isPrime(11)) {
+    console.log("11 is the Prime no");
+} else {
+    console.log("11 is not prime no");
+    
+}
+if (isPrime(21)) {
+    console.log("21 is prime no");
+} else {
+    console.log("21 is not prime no");
+}
