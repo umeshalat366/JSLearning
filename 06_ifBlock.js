@@ -39,9 +39,9 @@ function voteEligibility(age, name) {
     return;
   }
   if (age >= 18) {
-    console.log(`${name}you are eligible for vote`);
+    console.log(`${name} you are eligible for vote`);
   } else {
-    console.log(`${name}you are not eligible for vote`);
+    console.log(`${name} you are not eligible for vote`);
   }
 }
 voteEligibility(23, "Jenny");
