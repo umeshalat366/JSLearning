@@ -1,5 +1,5 @@
 let sbiBank = {
-    bankName : "Axis Bank",
+    bankName : "SBI Bank",
     location : "Barshi",
     accountNumber : "431695",
     ifsc : "SBIN000567",
@@ -11,7 +11,7 @@ let sbiBank = {
 sbiBank.showDetails();
 
 let axisBank = {
-    bankName : "SBI Bank",
+    bankName : "AXIS Bank",
     location : "Pune",
     accountNumber : "127648",
     ifsc : "AxIS00587",
@@ -22,7 +22,7 @@ let axisBank = {
 }
 axisBank.showDetails();
 let hdfcBank = {
-    bankName : "YES Bank",
+    bankName : "HDFC Bank",
     location : "Hadapsar",
     accountNumber : "983527",
     ifsc : "HDFC0057",
@@ -34,7 +34,7 @@ let hdfcBank = {
 hdfcBank.showDetails();
 
 let yesBank = {
-    bankName : "HDFC Bank",
+    bankName : "YES Bank",
     location : "Kharadi",
     accountNumber : "629125",
     ifsc : "YES000876",
