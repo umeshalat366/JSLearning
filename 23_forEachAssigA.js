@@ -2,8 +2,8 @@ const arrayNumbers = [1, -7, 40, 502, -77, 91, 0, 108, 89, -601];
 
 // Task 1: Log the array element with its index using forEach() with arrow function
 console.log("Task 1:");
-arrayNumbers.forEach((number, index) => {
-  console.log(`Index: ${index}, Value: ${number}`);
+arrayNumbers.forEach((currentValue, index) => {
+  console.log(`Index: ${index}, Value: ${currentValue}`);
 });
 console.log(`---------------------------------------------`);
 
@@ -38,7 +38,10 @@ console.log(`-------------------------------------------------`);
 
 // Task 5: Find the sum of all elements from arrayNumbers and log the sum value on console.
 console.log("Task 5:");
-const sum = arrayNumbers.reduce((accumulator, number) => accumulator + number, 0);
+const sum = arrayNumbers.reduce((currentValue, number) => {
+ return currentValue + number;
+});
+
 console.log("Sum:", sum);
 console.log(`----------------------------------------------`);
 
